@@ -1,4 +1,5 @@
 @echo off
 set /p id="Enter commit message: "
-git add . && git commit -m %id%
+git add -A 
+git commit -m %id%
 PAUSE
